@@ -20,7 +20,6 @@ export default async function ElementList() {
             <th className="px-4 py-2">Name</th>
             <th className="px-4 py-2">Symbol</th>
             <th className="px-4 py-2">Atomic Number</th>
-            <th className="px-4 py-2">Atomic Mass</th>
           </tr>
         </thead>
         <tbody>
@@ -32,9 +31,6 @@ export default async function ElementList() {
               <td className="border px-4 py-2 text-center">{element.symbol}</td>
               <td className="border px-4 py-2 text-center">
                 {element.atomicNumber}
-              </td>
-              <td className="border px-4 py-2 text-center">
-                {element.atomicMass}
               </td>
             </tr>
           ))}
